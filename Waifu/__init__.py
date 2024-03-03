@@ -22,7 +22,7 @@ MONGO_URL = os.environ.get("MONGO_URL")
 HANDLER = ["~",".","!","/","$","#"]
 
 # Client Stuffs
-Sophia = Client("Waifu-Auto-Grabber", session_string=SESSION, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="Waifu/Plugins"))
+waifu = Client("Waifu-Auto-Grabber", session_string=SESSION, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="Waifu/Plugins"))
 
 # Mongo Stuffs
 MONGO_DB = MongoClient(MONGO_URL)
