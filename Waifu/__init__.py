@@ -17,6 +17,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 SESSION = os.environ.get("SESSION")
 API_ID = os.environ.get("API_ID")
 API_HASH = os.environ.get("API_HASH")
+OWNER_ID = os.environ.get("OWNER_ID")
 MONGO_URL = os.environ.get("MONGO_URL")
 HANDLER = ["~",".","!","/","$","#"]
 
